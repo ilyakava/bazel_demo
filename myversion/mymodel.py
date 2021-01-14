@@ -8,5 +8,5 @@ def compare(x):
     return process1(x), process2(x), myprocess(x)
 
 if __name__ == '__main__':
-    print(compare(1))
+    print('Got      {}, {}, {}'.format(*compare(1)))
     print('Expected 2, 0, 1')
