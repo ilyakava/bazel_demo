@@ -15,3 +15,11 @@ Traceback (most recent call last):
     import util
 ModuleNotFoundError: No module named 'util'
 ```
+
+After setting up bazel, still same problem:
+```
+$ bazel build mymodel
+$ ./bazel-bin/mymodel
+Got      2, 3, 1
+Expected 2, 0, 1
+```
